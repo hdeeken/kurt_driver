@@ -1,9 +1,7 @@
 <?xml version="1.0"?>
-<robot
-  xmlns:xacro="http://ros.org/wiki/xacro">
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
 
   <xacro:include filename="$(find uos_common_urdf)/common.xacro" />
-
   <xacro:include filename="$(find kurt_base)/urdf/rotunit.urdf.xacro" />
 
   <xacro:property name="top_x" value="0.36" />

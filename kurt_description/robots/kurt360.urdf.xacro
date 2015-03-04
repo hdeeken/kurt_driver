@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <robot
-  xmlns:xacro="http://ros.org/wiki/xacro"
-  name="kurt360">
+  xmlns:xacro="http://ros.org/wiki/xacro" name="kurt360">
   
   <xacro:property name="top_y_offset" value="0.009" />
-  <xacro:property name="base_z_offset" value="0.03" /> <!-- distance from base_link to top of cover surface -->
+  <!-- distance from base_link to top of cover surface -->
+  <xacro:property name="base_z_offset" value="0.03" /> 
 
   <xacro:include filename="$(find kurt_base)/urdf/kurt_outdoor.urdf.xacro" />
   <xacro:include filename="$(find kurt_description)/tops/kurt360_top.urdf.xacro" />
@@ -14,5 +14,4 @@
     <child link="kurt360_top" />
     <origin xyz="0 ${top_y_offset} ${base_z_offset + top_z/2}" />
   </joint>
-
 </robot>
