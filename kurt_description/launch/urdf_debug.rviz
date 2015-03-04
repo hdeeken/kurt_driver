@@ -1,0 +1,255 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 82
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+      Splitter Ratio: 0.5
+    Tree Height: 511
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /FPS Motion1
+      - /Drive1
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Set Home1
+      - /Go Home1
+    Name: Tool Properties
+    Splitter Ratio: 0.588679
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /Interact1
+      - /FPS Motion1
+      - /Drive1
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Set Home1
+      - /Go Home1
+    Name: Tool Properties
+    Splitter Ratio: 0.5
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.03
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 100
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: true
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        {}
+      Update Interval: 0
+      Value: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        base_footprint:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ir_back:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ir_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ir_left_back:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ir_left_front:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ir_right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ir_right_back:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ir_right_front:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        laptop_structure:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        laser:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_front_wheel_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_middle_wheel_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_rear_wheel_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_front_wheel_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_middle_wheel_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_rear_wheel_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ultrasound_front:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: base_link
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/FocusCamera
+    - Class: rviz/Select
+    - Class: rviz/Measure
+    - Boost Property: 0.5
+      Class: rviz/FPSMotionTool
+      Fallback Tool: rviz/Interact
+      Fallback ViewController: rviz/Orbit
+      Fly Mode: false
+      Left Hand Mode: false
+      Step Length: 0.1
+    - Class: rviz/DiffDriveTeleopTool
+      Left Hand Mode: false
+      Walk Boost: 0.5
+      Walk Speed: 1
+      Yaw Boost: 0.5
+      Yaw Speed: 1.5
+    - Class: rviz/SetInitialPose
+      Topic: initialpose
+    - Class: rviz/SetGoal
+      Topic: goal
+    - Class: rviz/SetHomeTool
+      Parameter: home
+    - Class: rviz/GoHomeTool
+      Parameter: home
+      Topic: move_base_simple/goal
+  Value: true
+  Views:
+    Current:
+      Class: rviz/FPSMotion
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.06
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Name: Current View
+      Near Clip Distance: 0.01
+      Pitch: 1.05653
+      Position:
+        X: -5.8445
+        Y: 7.19582
+        Z: 18.7836
+      Target Frame: <Fixed Frame>
+      Value: FPSMotion (rviz)
+      Yaw: 5.38524
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 851
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd00000004000000000000013c000002b0fc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006800fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afc00000041000002b0000001030100001dfa000000010100000002fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000000ffffffff0000008e00fffffffb000000100044006900730070006c00610079007301000000000000013c0000010f00fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f000002b0fc0200000002fb0000000a005600690065007700730100000041000002b0000000b400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000640000000b4fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000006400000003efc0100000002fb0000000800540069006d00650100000000000006400000023900fffffffb0000000800540069006d00650100000000000004500000000000000000000003e9000002b000000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 1600
+  X: 0
+  Y: 0
